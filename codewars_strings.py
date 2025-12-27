@@ -9,3 +9,8 @@ def array(string):
 
     return " ".join(parts[1:-1])
 
+
+
+
+def is_uppercase(inp):
+    return inp == inp.upper()
