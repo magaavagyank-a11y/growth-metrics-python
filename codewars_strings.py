@@ -28,3 +28,11 @@ def double_integer(i):
 
 def lovefunc( flower1, flower2 ):
     return (flower1 + flower2) % 2 == 1
+
+
+
+def number(bus_stops):
+    return sum(on - off for on, off in bus_stops)
+
+
+def find_longest(arr):
