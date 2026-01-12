@@ -1,0 +1,29 @@
+[
+    {
+        "user_id": 1,
+        "name": "Anna",
+        "registration_date": "2026-01-05",
+        "logins": [
+            "2026-01-05",
+            "2026-01-06",
+            "2026-01-08"
+        ]
+    },
+    {
+        "user_id": 2,
+        "name": "Bob",
+        "registration_date": "2026-01-05",
+        "logins": [
+            "2026-01-05"
+        ]
+    },
+    {
+        "user_id": 3,
+        "name": "Marta",
+        "registration_date": "2026-01-05",
+        "logins": [
+            "2026-01-05",
+            "2026-01-12"
+        ]
+    }
+]
