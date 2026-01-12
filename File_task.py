@@ -49,6 +49,7 @@ def load_users_from_file(filename):
 with open("login_logs.csv", "w") as f:
     f.write("user_id,timestamp\n")
     for _ in range(10):
-        user_id = random.randint(1, 5)
-        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        f.write(f"{user_id},{timestamp}\n")
+        if "registered" in users[random.randint(0, len(users)-1)] and users[random.randint(0, len(users)-1)]["registered"]:
+            user_id = random.randint(1, 5)
+            timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            f.write(f"{user_id},{timestamp}\n")
